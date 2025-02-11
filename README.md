@@ -99,7 +99,7 @@ Configure Nginx to reverse proxy the n8n web interface:
 
 3. **Enable the Configuration:**
     ```bash
-    sudo ln -s /etc/nginx/sites-available/n8n.conf /etc/nginx/sites-enabled/
+    sudo ln -s /etc/nginx/sites-available/n8n /etc/nginx/sites-enabled/
 
     If you see the error saying /etc/nginx/sites-enabled/ doesn't exist. Create it by running: sudo mkdir /etc/nginx/sites-enabled/
 
